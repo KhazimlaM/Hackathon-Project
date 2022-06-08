@@ -55,6 +55,7 @@ a.active, a:hover{
    width: 100%;
    border-radius: 2em;
    margin-bottom: 1em;
+   margin-top: 200px;
 }
 
 .btns{
@@ -66,7 +67,9 @@ a.active, a:hover{
    font-weight: bold;
    font-size: large;
 }
-
+.form {
+  margin-top: 100px; 
+}
 
 @media screen and (max-width: 688px) {
 

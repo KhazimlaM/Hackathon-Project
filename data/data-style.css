@@ -19,6 +19,7 @@ h2{
     width: 100%;
     font-weight: bold;
     font-size: large;
+    /* margin-top: 350px; */
 }
 .buttons{
     background-color: orange;
@@ -28,6 +29,7 @@ h2{
     margin-bottom: 1em;
     font-weight: bold;
     font-size: large;
+    margin-top: 450px;
 }
 
 .headimg{
