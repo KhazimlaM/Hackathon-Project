@@ -1,69 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="main_content">
 
         <div class="header">
+            <img class="headimg" src="e-homeaffairs.jpg" alt="">
             <nav>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#data">Data</a></li>
-                <li><a href="#stats">Statistics</a></li>
-            </ul>
-        </nav>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#data">Data</a></li>
+                    <li><a href="#stats">Statistics</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="header">
-            <img src="e-homeaffairs.jpg" alt="">
-            <h1>Home Affair</h1>
+
+        <div class="form">
+            <div class="name">
+                <h2>Name:</h2>
+                <input type="text" name="Name" class="enteredName" placeholder="Enter Your Name" id="">
+            </div>
+
+            <div class="service">
+                <h2>Service:</h2>
+                <select class="serv" name="list" id="">
+                    <option value="">------Choose Services------</option>
+                    <option value="">Birth Certificate</option>
+                    <option value="">Identity Documents</option>
+                    <option value="">Marriage Certificate</option>
+                    <option value="">Death Certificate</option>
+                    <option value="">Adoption</option>
+                    <option value="">CITIZENSHIP</option>
+                    <option value="">Amendments</option>
+                    <option value="">Travel Documents</option>
+                    <option value="">Parental Consent Affidavit ZA</option>
+                    <option value="">Qualified Imams</option>
+                    <option value="">ABIS</option>
+                    <option value="">Passport & Smart ID</option>
+                    <!-- <option value="">List of DHA offices that conduct Civil Union/Partnership Marriages</option> -->
+                </select>
+            </div>
+            <div class="date">
+                <h2>Date:</h2>
+                <form  action="/action_page.php">
+                    <!-- <label for="date">Date:</label> -->
+                    <input class="dateForm" type="date" name="date" id="date">
+                    <!-- <input type="submit" value=""> -->
+                </form>
+            </div>
+
+            <div class="bing">
+                
+            </div>
+
+            <div class="btn">
+                <input class="btns" type="button" value="Next">
+            </div>
         </div>
-        <div>
-            <h2>Name</h2>
-            <input type="text" name="Name" placeholder="Enter Your Name" id="">
-        </div>
-        <div>
-            <h2>Service</h2>
-            <select name="list" id="">
-                <option value="">------Choose Services------</option>
-                <option value="">Birth Certificate</option>
-                <option value="">Identity Documents</option>
-                <option value="">Marriage Certificate</option>
-                <option value="">Death Certificate</option>
-                <option value="">Adoption</option>
-                <option value="">CITIZENSHIP</option>
-                <option value="">Amendments</option>
-                <option value="">Travel Documents</option>
-                <option value="">Parental Consent Affidavit ZA</option>
-                <option value="">Qualified Imams</option>
-                <option value="">ABIS</option>
-                <option value="">Passport & Smart ID</option>
-                <option value="">List of DHA offices that conduct Civil Union/Partnership Marriages</option>
-            </select>
-        </div>
-        <div>
-            <h2>Date</h2>
-            <form action="/action_page.php">
-<!-- <label for="date">Date:</label> -->
-<input type="date" name="date" id="date">
-<!-- <input type="submit" value=""> -->
-            </form>
-        </div>
-        <div>
-            <input type="button" value="Submit">
-        </div>
-        <div>
-            <table class="table" >
+
+        <!-- <div>
+            <table class="table">
                 <thead>
                     <th>Name</th>
                     <th>Service</th>
                     <th>Date</th>
                 </thead>
-        </div>
+        </div> -->
     </div>
 </body>
+
 </html>
