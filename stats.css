@@ -1,0 +1,24 @@
+body {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    background-color: darkgreen;
+}
+
+.img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10em;
+    border-radius: 100%;
+}
+
+.btns{
+    background: orange;
+    height: 40px;
+    width: 100%;
+    border-radius: 2em;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 15em;
+ }
