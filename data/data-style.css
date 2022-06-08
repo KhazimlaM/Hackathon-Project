@@ -68,6 +68,11 @@ a.active, a:hover{
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+th{
+    padding: 20px;
+ }
+
 @media screen and (max-width:680px){
 
 }

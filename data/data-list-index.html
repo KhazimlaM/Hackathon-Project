@@ -7,10 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="data-style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
 </head>
 
 <body>
+
+
     <div class="Container">
+
+        <script type="text/x-template" class="userTemplate">
+            {{#each users}}
+            <tr>
+              <td>{{firstName}}</td>
+              <td>{{Services}}</td>
+              <td>{{Date}}</td>
+            </tr>
+            {{/each}}
+        </script>
 
         <div class="heading">
             <img class="headimg" src="e-homeaffairs.jpg" alt="">
@@ -23,9 +36,9 @@
             </nav>
         </div>
         <div class="data-list">
-            <ul>
+            <!-- <ul>
                 <li>NO 1</li>
-                <input type="text" name="" placeholder="Zeenat ID:08/05/1996" id="">
+                <input class="first" type="text" name="" placeholder="Zeenat ID:08/05/1996" id="">
                 <br>
                 <li>No 2</li>
                 <input type="text" name="" placeholder="Sdumo ID:12/01/1991" id="">
@@ -54,7 +67,57 @@
                 <li>No 10</li>
                 <input type="text" name="" placeholder="" id="">
                 <br>
-            </ul>
+            </ul> -->
+            <div>
+<!-- <table>
+    <thead>
+        <th>No.</th>
+        <th>Name</th>
+        <th>Services</th>
+        <th>Date</th>
+    </thead>
+    <tr>
+        <td>No 1</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>No 2</td>
+    </tr>
+    <tr>
+        <td>No 3</td>
+    </tr>
+    <tr>
+        <td>No 4</td>
+    </tr>
+    <tr>
+        <td>No 5</td>
+    </tr>
+    <tr>
+        <td>No 6</td>
+    </tr>
+    <tr>
+        <td>No 7</td>
+    </tr>
+    <tr>
+        <td>No 8</td>
+    </tr>
+
+</table> -->
+
+<table>
+    <tr>
+      <th>Name</th>
+      <th>Services</th>
+      <th>Date</th>
+    </tr>
+    <tbody class="userData">
+      
+    </tbody>
+  </table>
+            </div>
+
             <br>
             <br>
             <br>
@@ -68,6 +131,10 @@
             <input class="button" type="button" value="View statistics">
         </div>
     </div>
+
+
+    <script src="./data.js"></script>
+
 </body>
 
 </html>
