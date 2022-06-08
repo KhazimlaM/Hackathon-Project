@@ -1,0 +1,127 @@
+body {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+* {
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+.headimg{
+    height: 130px;
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+nav{
+   background: darkgreen;
+   height: 40px;
+   width: 100%;
+}
+
+nav ul{
+   text-align: center;
+   margin-right: 20px;
+   justify-content: center;
+}
+
+nav ul li{
+   display: inline-block;
+   line-height: 10px;
+   margin: 0 5px;
+   margin-top: 15px;
+}
+
+nav ul li a{
+color: black;
+font-size: 20px;
+text-transform: uppercase;
+padding: 7px 13px;
+border-radius: 30px;
+}
+
+a.active, a:hover{
+   background: azure;
+   transition: .10s;
+}
+
+.bing{
+   background: orange;
+   height: 40px;
+   width: 100%;
+   border-radius: 2em;
+   margin-bottom: 1em;
+}
+
+.btns{
+   background: darkgreen;
+   height: 40px;
+   width: 100%;
+   border-radius: 2em;
+   text-align: center;
+   font-weight: bold;
+   font-size: large;
+}
+
+
+@media screen and (max-width: 688px) {
+
+  nav ul li a{
+   color: black;
+   font-size: 20px;
+   text-transform: uppercase;
+   padding: 4px 6px;
+   border-radius: 30px;
+   }
+
+   .date{
+      margin-bottom: 1em;
+   }
+   
+   .name{
+      text-align: center;
+   }
+ 
+   .service{
+      text-align: center;
+   }
+
+   .date{
+      text-align: center;
+   }
+
+}
+
+@media screen and (min-width: 689px) {
+
+   h2{
+     padding-right: 1em;
+   }
+
+   .name{
+      display: flex;
+      margin: 1em;
+      justify-content: center;
+   }
+
+   .service{
+      display: flex;
+      margin: 1em;
+      justify-content: center;
+   }
+
+   .date{
+      display: flex;
+      margin: 1em;
+      justify-content: center;
+   }
+
+   .dateForm{
+      margin-top: 1.5em;
+   }
+}
+
