@@ -16,18 +16,18 @@
     <div class="Container">
 
         <script type="text/x-template" class="userTemplate">
-            {{#each users}}
+            {{#each userData}}
             <tr>
               <td>{{firstName}}</td>
-              <td>{{Services}}</td>
-              <td>{{Date}}</td>
+              <td>{{services}}</td>
+              <td>{{currentDate}}</td>
             </tr>
             {{/each}}
         </script>
 
         <div class="heading">
             <div class="white">
-            <img class="headimg" src="e-homeaffairs.jpg" alt="">
+                <img class="headimg" src="e-homeaffairs.jpg" alt="">
             </div>
             <nav>
                 <ul class="menu">
@@ -38,100 +38,31 @@
             </nav>
         </div>
         <div class="data-list">
-            <!-- <ul>
-                <li>NO 1</li>
-                <input class="first" type="text" name="" placeholder="Zeenat ID:08/05/1996" id="">
-                <br>
-                <li>No 2</li>
-                <input type="text" name="" placeholder="Sdumo ID:12/01/1991" id="">
-                <br>
-                <li>No 3</li>
-                <input type="text" name="details" placeholder="Zingce ID:29/06/2000" id="">
-                <br>
-                <li>No 4</li>
-                <input type="text" name="" placeholder="" id="">
-                <br>
-                <li>No 5</li>
-                <input type="text" name="" placeholder="" id="">
-                <br>
-                <li>No 6</li>
-                <input type="text" name="details" placeholder="" id="">
-                <br>
-                <li>No 7</li>
-                <input type="text" name="" placeholder="" id="">
-                <br>
-                <li>No 8</li>
-                <input type="text" name="" placeholder="" id="">
-                <br>
-                <li>No 9</li>
-                <input type="text" name="details" placeholder="" id="">
-                <br>
-                <li>No 10</li>
-                <input type="text" name="" placeholder="" id="">
-                <br>
-            </ul> -->
-            <div>
-<!-- <table>
-    <thead>
-        <th>No.</th>
-        <th>Name</th>
-        <th>Services</th>
-        <th>Date</th>
-    </thead>
-    <tr>
-        <td>No 1</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>No 2</td>
-    </tr>
-    <tr>
-        <td>No 3</td>
-    </tr>
-    <tr>
-        <td>No 4</td>
-    </tr>
-    <tr>
-        <td>No 5</td>
-    </tr>
-    <tr>
-        <td>No 6</td>
-    </tr>
-    <tr>
-        <td>No 7</td>
-    </tr>
-    <tr>
-        <td>No 8</td>
-    </tr>
 
-</table> -->
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Services</th>
+                    <th>Date</th>
+                </tr>
+                <tbody class="userData">
 
-<table>
-    <tr>
-      <th>Name</th>
-      <th>Services</th>
-      <th>Date</th>
-    </tr>
-    <tbody class="userData">
-      
-    </tbody>
-  </table>
-            </div>
-
-            <br>
-            <br>
-            <br>
+                </tbody>
+            </table>
         </div>
 
-        <div class="button1">
-            <a href="/statistics/stats.html"><input class="buttons" type="button" value="Proceed"></a>
-        </div>
+        <br>
+        <br>
+        <br>
+    </div>
 
-        <div class="button2">
-            <input class="button" type="button" value="View statistics">
-        </div>
+    <div class="button1">
+        <a href="/statistics/stats.html"><input class="buttons" type="button" value="Proceed"></a>
+    </div>
+
+    <div class="button2">
+        <input class="button" type="button" value="View statistics">
+    </div>
     </div>
 
 
