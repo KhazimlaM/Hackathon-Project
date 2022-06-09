@@ -58,7 +58,20 @@ a.active, a:hover{
    margin-top: 200px;
 }
 
+.btns1{
+   text-align: center;
+}
+
 .btns{
+   height: 40px;
+   width: 20%;
+   border-radius: 2em;
+   text-align: center;
+   font-weight: bold;
+   font-size: large;
+}
+
+.btn{
    background: darkgreen;
    height: 40px;
    width: 100%;
@@ -70,6 +83,7 @@ a.active, a:hover{
 .form {
   margin-top: 100px; 
 }
+
 
 @media screen and (max-width: 688px) {
 
@@ -87,6 +101,7 @@ a.active, a:hover{
    
    .name{
       text-align: center;
+      padding-top: 50px;
    }
  
    .service{

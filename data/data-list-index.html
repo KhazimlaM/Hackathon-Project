@@ -8,23 +8,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="data-style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+    <script type="text/x-template" class="userTemplate">
+        {{#each userData}}
+        <tr>
+          <td>{{firstName}}</td>
+          <td>{{services}}</td>
+          <td>{{currentDate}}</td>
+          <td>{{appoinmentDate}}</td>
+
+        </tr>
+        {{/each}}
+    </script>
 </head>
 
 <body>
 
-
     <div class="Container">
-
-        <script type="text/x-template" class="userTemplate">
-            {{#each userData}}
-            <tr>
-              <td>{{firstName}}</td>
-              <td>{{services}}</td>
-              <td>{{currentDate}}</td>
-            </tr>
-            {{/each}}
-        </script>
-
         <div class="heading">
             <div class="white">
                 <img class="headimg" src="e-homeaffairs.jpg" alt="">
@@ -37,36 +38,47 @@
                 </ul>
             </nav>
         </div>
-        <div class="data-list">
+        <div class="data-with-chart">
+            <div class="data-list">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Services</th>
+                        <th>Tickit created </th>
+                        <th>Due date </th>
 
-            <table>
-                <tr>
-                    <th>Name</th>
-                    <th>Services</th>
-                    <th>Date</th>
-                </tr>
-                <tbody class="userData">
+                    </tr>
+                    <tbody class="userData">
 
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ba">
+                <h2 class="bar">Bar</h2>
+                <canvas id="myChart" width="400" height="400"></canvas>
+            </div>
         </div>
-
-        <br>
-        <br>
-        <br>
     </div>
 
-    <div class="button1">
-        <a href="/statistics/stats.html"><input class="buttons" type="button" value="Proceed"></a>
+
+
+    <div class="btnz">
+        <a href="/statistics/stats.html"><input class="button1" type="button" value="Proceed"></a>
     </div>
 
-    <div class="button2">
-        <input class="button" type="button" value="View statistics">
+
+    <div class="buttons">
+    </div>
+
+    <div class="button">
+
     </div>
     </div>
 
 
     <script src="./data.js"></script>
+    <!-- <script src="/dom.js"></script> -->
+
 
 </body>
 

@@ -12,6 +12,20 @@ h2{
     text-align: center;
     padding-bottom: 20em;
 }
+
+.btnz{
+    text-align: center;
+}
+
+.button1{
+height: 40px;
+width: 20%;
+border-radius: 2em;
+text-align: center;
+font-weight: bold;
+font-size: large;
+}
+
 .button{
     background-color: darkgreen;
     border-radius: 0.9em;
@@ -29,7 +43,7 @@ h2{
     margin-bottom: 1em;
     font-weight: bold;
     font-size: large;
-    margin-top: 450px;
+    margin-top: 100px;
 }
 
 .headimg{
@@ -61,6 +75,7 @@ font-size: 20px;
 text-transform: uppercase;
 padding: 7px 13px;
 border-radius: 30px;
+text-decoration: none;
 }
 a.active, a:hover{
    background: azure;
@@ -75,6 +90,49 @@ th{
     padding: 20px;
  }
 
-@media screen and (max-width:680px){
+ table{
+    border-collapse: collapse;
+    padding: 50px;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+td,th , tr {
+    border: solid;
+    padding: 10px;
+    text-align: center;
+}
 
+.bar{
+    padding: 0%;
+}
+
+
+.data-with-chart{
+    display: flex;
+}
+
+.ba{
+    float: left;
+}
+
+.tablez{
+    display: flex;
+}
+
+@media screen and (max-width:688px){
+    .data-with-chart{
+flex-direction: column;
+    }
+
+    .button1{
+        margin-top: 40px;
+        width: 30%;
+    }
+
+    .buttons{
+        margin-top: 50px;
+    }
 }
