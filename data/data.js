@@ -26,15 +26,15 @@ const myChart = new Chart(myChartElem, {
     data: {
             labels: objectKeys,
         datasets: [{
-            label: '# of Votes',
+            label: 'Home Affairs Statistics',
             data: objectValues,
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)',
+                'rgba(255, 99, 132,)',
+                'rgba(226, 69, 35)',
+                'rgba(143, 175, 34 )',
+                'rgba(175, 83, 34 )',
+                'rgba(11, 48, 122)',
+            
             ],
             borderColor: [
                 'rgba(255, 99, 132, 1)',

@@ -135,4 +135,13 @@ flex-direction: column;
     .buttons{
         margin-top: 50px;
     }
+    table{
+        border-collapse: collapse;
+        padding: 50px;
+        width: 150%;
+        margin-top: 20px;
+        margin-left: 80px;
+        margin-right: auto;
+        
+    }
 }
